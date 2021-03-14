@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>about me</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="pale-bg">
+        <div id="food">
+            <p class="bold">food i like to eat:</p>
+            <img id="food-img" src="https://media-cdn.tripadvisor.com/media/photo-s/1c/2f/33/2d/healthy-bowl-frische.jpg" width="400px">
+            <ul>
+                <li>good food</li>
+                <li>tasty food</li>
+            </ul>
+        </div>
+        <div id="colors">
+            <p class="underline">colors i like:</p>
+            <ol>
+                <li style="color: skyblue;">sky blue</li>
+                <li style="color: orange;">orange</li>
+                <li style="color: grey;">white!</li>
+            </ol>
+        </div>
+        <div id="schedule">
+            <p class="italic">my life</p>
+            <table>
+                <tr>
+                    <th>time</th>
+                    <th>activity</th>
+                </tr>
+                <tr>
+                    <td>0800</td>
+                    <td>wake up</td>
+                </tr>
+                <tr>
+                    <td>1200</td>
+                    <td>study</td>
+                </tr>
+                <tr>
+                    <td>2200</td>
+                    <td>sleep</td>
+                </tr>
+            </table>
+        </div>
+
+        <form id="form" method="GET" action="/">
+            <p class="bold">Any questions?</p>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+            <br>
+
+            <label for="question">Question: </label>
+            <input type="text" id="question" name="question" required>
+            <br>
+
+            <label for="image">Any Image? (optional)</label>
+            <input type="file" id="image" naem="image">
+            <br>
+
+            <button type="submit" value="Submit">Submit</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+.small-text {
+    font-size: 50%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.pale-bg {
+    background-color: rgb(255, 252, 213);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#food-img {
+    float: right;
+    margin-right: 40%;
+}
